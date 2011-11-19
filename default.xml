@@ -239,6 +239,7 @@
 
   <project path="vendor/samsung" name="SGS2ICS/android_proprietary_samsung" />
   <project path="kernel/samsung/c1" name="AOSP-SGS2/samsung-kernel-c1" revision="ics-samsung-2.6.35.14" />
+  <project path="vendor/ics" name="AOSP-SGS2/android_vendor_ics" />
 
   <project path="android" name="CyanogenMod/android" />
 </manifest>
