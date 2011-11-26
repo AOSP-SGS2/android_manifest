@@ -30,6 +30,7 @@
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
   <project path="device/samsung/galaxys2" name="AOSP-SGS2/android_device_samsung_galaxys2" />
+  <project path="device/samsung/galaxynote" name="AOSP-SGS2/android_device_samsung_galaxynote" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
@@ -239,6 +240,7 @@
 
   <project path="vendor/samsung" name="SGS2ICS/android_proprietary_samsung" />
   <project path="kernel/samsung/c1" name="AOSP-SGS2/samsung-kernel-c1" revision="ics-samsung-2.6.35.14" />
+  <project path="kernel/samsung/galaxynote" name="AOSP-SGS2/android_kernel_samsung_galaxynote" />  
   <project path="vendor/ics" name="AOSP-SGS2/android_vendor_ics" />
 
   <project path="android" name="AOSP-SGS2/android_manifest" />
