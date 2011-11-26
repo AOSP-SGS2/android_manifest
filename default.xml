@@ -183,7 +183,7 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="refs/tags/android-4.0.1_r1"  />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
@@ -199,7 +199,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
@@ -241,5 +241,5 @@
   <project path="kernel/samsung/c1" name="AOSP-SGS2/samsung-kernel-c1" revision="ics-samsung-2.6.35.14" />
   <project path="vendor/ics" name="AOSP-SGS2/android_vendor_ics" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="AOSP-SGS2/android_manifest" />
 </manifest>
